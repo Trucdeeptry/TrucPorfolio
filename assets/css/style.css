@@ -14,6 +14,18 @@
     z-index: 1;
 
 }
+.menu{
+    display: none;
+}
+#withlabel{
+    display: none;
+}
+.flex-end{
+    display: none;
+}
+.bar-icon{
+    display: none;
+}
 .profile{
     display: flex;
     padding-left: 30px;
@@ -117,7 +129,6 @@
     position: absolute;
     border-left: 2px solid black;
     animation: flow 1s linear infinite alternate;
-    
     right: 0;
 }
 .intro_descripstion{

@@ -63,3 +63,137 @@ a{
     }
 }
 
+@keyframes changeText4{
+    0%{
+        content: attr(text1);
+    }
+    33.3334%{
+        content: attr(text2);
+    }
+   66.6667%{
+        content:attr(text3);
+    }
+    100%{
+        content: attr(text4);
+    }
+}
+
+@media (max-width: 739px){
+    .profile{
+        padding-left: 0;
+        width: 100%;
+    }
+    
+    .header{
+        justify-content: space-around;
+    }
+    .flex-end{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background-color: #eaecee;;
+        box-shadow: 5px 5px 15px #c1c8d3;
+        border-radius: 50%;
+        position: relative;
+        align-items: center;
+    }
+    
+    .bar-icon{
+        display: block;
+        font-size: 18px;
+        color: red;
+        
+    }
+    .content_info{
+        flex-direction: column-reverse;
+    }
+    .info_img, 
+    .info_img::after, 
+    .info_avt_img{
+        width: 95%;
+    }
+    .info_img{
+        margin: auto;
+    }
+    .intro_title{
+        font-size: 35px;
+    }
+    .content_info{
+        align-items: normal;
+    }
+    .info_intro{
+        width: 100%;
+    }
+    /* Skill */
+    .Skill_content{
+        display: block;
+    }
+    .column{
+        width: 100%;
+    }
+    .skill_list{
+        padding: 0;
+    }
+    /* Project */
+    .project_list{
+        display: block;
+        padding: 0;
+    }
+    .project_items{
+        width: 100%;
+        margin-top: 20px;
+    }
+    /* Navbar */
+    .navbar{
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: white;
+        height: 100vh;
+        width: 80%;
+        z-index: 1;
+        transition: ease-out 1s;
+        transform: translateX(-100%);
+    }
+    .navbar_list{
+        flex-direction: column;
+        position: absolute;
+        margin-top: 90px;
+        padding-left: 20px;
+        width: 100%;
+    }
+    .navbar_list li{
+        padding-left: 20px;
+        font-size: 16px;
+        display: block;
+        width: 100%;
+    }
+    .navbar_items{
+        padding: 20px;
+        width: 100%;
+        display: block;
+    }
+    .navbar .menu{
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+    #withlabel:checked ~ .navbar{
+       transform: translateX(0%);
+    }
+    .x-icon{
+        font-size: 18px;
+        color: red;
+        font-weight: bold;
+    }
+
+    
+} 
