@@ -113,7 +113,8 @@
     content: attr(text1);
     width: 100%;
     line-height: 100%;
-    animation: changeText 4s linear infinite;
+    animation: changeText4 12s linear infinite;
+
 }
 .gradien-bg{
     display: inline-block;

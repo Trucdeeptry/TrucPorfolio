@@ -67,15 +67,16 @@ a{
     0%{
         content: attr(text1);
     }
-    33.3334%{
+    25%{
         content: attr(text2);
     }
-   66.6667%{
+   50%{
         content:attr(text3);
     }
-    100%{
+    75%{
         content: attr(text4);
     }
+    
 }
 
 @media (max-width: 739px){
