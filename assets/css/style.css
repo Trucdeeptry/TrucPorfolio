@@ -14,6 +14,11 @@
     z-index: 1;
 
 }
+.count{
+    position: fixed;
+    z-index: 1;
+    display: block;
+}
 .menu{
     display: none;
 }
@@ -113,7 +118,7 @@
     content: attr(text1);
     width: 100%;
     line-height: 100%;
-    animation: changeText4 12s linear infinite;
+    animation: changeText 4s linear infinite;
 
 }
 .gradien-bg{
